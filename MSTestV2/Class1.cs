@@ -10,6 +10,17 @@ namespace MSTestV2
     [TestClass]
     public class Class1
     {
+        [TestMethod]
+        public void TestMethod_Works_And_Displays_In_TestExplorer()
+        {
+            Assert.IsTrue(true);
+        }
+
+        /*
+         * SAMPLE THAT REPRODUCES The issue
+         * 
+         */
+        //The Data Test Method is NOT showing up in Test Explorer
         [DataTestMethod]
         [DataRow(1, 1, 2)]
         [DataRow(1, 3, 4)]
