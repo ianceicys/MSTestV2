@@ -10,6 +10,11 @@ namespace MSTestV2
     [TestClass]
     public class Class1
     {
+        /*
+        * Test Method that shows up correctly
+        * 
+        */
+        //The Data Test Method shows up in Test Explorer
         [TestMethod]
         public void TestMethod_Works_And_Displays_In_TestExplorer()
         {
